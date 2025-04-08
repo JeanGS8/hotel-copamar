@@ -1,0 +1,21 @@
+footer {
+  background-color: var(--primary-color);
+
+  p{
+    word-wrap: break-word;
+  
+    a{
+      text-decoration: none;
+    }
+  }
+}
+@media(max-width: 575px){
+  .content{
+    margin: 0 auto;
+    width: 18rem;
+
+    div{
+      padding: 0;
+    }
+  }
+}

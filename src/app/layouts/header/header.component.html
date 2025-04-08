@@ -1,0 +1,39 @@
+<header class="mb-5">
+  <nav class="navbar navbar-expand-lg border-bottom border-secondary-subtle" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" [routerLink]="['/']" routerLinkActive="router-link-active">
+        <img src="logo-header.jpg" alt="Logo" height="60">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end px-md-5" id="navbarNav">
+        <ul class="navbar-nav fs-5">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/'" routerLinkActive="router-link-active">
+              Home
+            </a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/about']" routerLinkActive="router-link-active" >
+              About us
+            </a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/about']" routerLinkActive="router-link-active" >
+              Rooms types
+            </a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/location']" routerLinkActive="router-link-active" >
+              Location
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

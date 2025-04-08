@@ -1,0 +1,39 @@
+<div class="container">
+
+  <div class="row pb-5 justify-content-center">
+    <app-home-carousel class="col-12 col-xl-8" [interval]="2500" [images]="[
+      'home-carousel/imagem1.jpg',
+      'home-carousel/imagem2.jpg',
+      'home-carousel/imagem3.jpg',
+      'home-carousel/imagem4.jpg',
+      'home-carousel/imagem5.jpg'
+    ]"/>
+  </div>
+
+  <div class="row pt-5 justify-content-between text-light">
+    <app-card class="col-12 col-md-5 col-xl-3 mb-5 mb-xl-0 d-flex justify-content-center" [data]="{
+      img: 'home-cards/about.jpg',
+      title: 'About us',
+      txt: 'Good service, hospitality, natural beauty and beaches to wander and discover. Come visit us soon!',
+      router: '/about',
+      alt: 'orla'
+    }"/>
+
+    <app-card class="col-12 col-md-5 col-xl-3 mb-5 mb-xl-0 d-flex justify-content-center" [data]="{
+      img: 'home-cards/rooms.jpg',
+      title: 'Rooms & Rates',
+      txt: 'Come visit us and check out our lovely hotel and rooms.',
+      router: '/about',
+      alt: 'apartamento'
+    }"/>
+    
+    <app-card class="col-12 col-md-5 col-xl-3 mb-5 mb-xl-0 d-flex justify-content-center" [data]="{
+      img: 'home-cards/location.jpg',
+      title: 'Location',
+      txt: 'Nestled in the heart of Rio de Janeiro, our Hotel is perfectly located for the weekend break or a leisurely mid-week holiday.',
+      router: '/location',
+      alt: 'copacabana'
+    }"/>
+  </div>
+
+</div>
