@@ -55,3 +55,12 @@ body{
 	--primary-color: #242C3F;
 	--secondary-color: #F8F8FF;
 }
+app-root{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main{
+	flex: 1;
+}

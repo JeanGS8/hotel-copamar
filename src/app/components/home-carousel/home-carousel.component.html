@@ -1,4 +1,4 @@
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" [attr.data-bs-interval]="interval">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" [attr.data-bs-interval]="interval()">
   <div class="carousel-inner">
     @for(item of images; track item; let i = $index){
       @if(i == 0){
