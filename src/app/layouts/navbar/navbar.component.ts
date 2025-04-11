@@ -3,11 +3,11 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-navbar',
   imports: [CommonModule, RouterLink],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  templateUrl: './navbar.component.html',
+  styleUrl: './navbar.component.scss'
 })
-export class HeaderComponent {
+export class NavbarComponent {
 
 }
